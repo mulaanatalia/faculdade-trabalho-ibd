@@ -29,369 +29,92 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
-            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.NumeroID = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.TipoID = new System.Windows.Forms.ComboBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.SalaEs = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.TurmaES = new System.Windows.Forms.ComboBox();
-            this.AnoDeIngresso = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.nomeArquivo = new System.Windows.Forms.Label();
-            this.fotoDocente = new System.Windows.Forms.Button();
-            this.btn_cadastrar = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.FotoUsuario = new System.Windows.Forms.PictureBox();
             this.EmailEstudante = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.TelefoneEstudante = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.GeneroEstudante = new System.Windows.Forms.ComboBox();
             this.EstadoCevilEstudante = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.MoradaEstudante = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.NacionalidadeEstudante = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.DataNacEstudante = new System.Windows.Forms.DateTimePicker();
-            this.lblUNome = new System.Windows.Forms.TextBox();
+            this.ApelidoEstudante = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.lblPnome = new System.Windows.Forms.TextBox();
+            this.NomeEstudante = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuGradientPanel1.SuspendLayout();
+            this.AnoDeIngresso = new System.Windows.Forms.DateTimePicker();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.FotoUsuario = new System.Windows.Forms.PictureBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FotoUsuario)).BeginInit();
             this.SuspendLayout();
-            // 
-            // bunifuGradientPanel1
-            // 
-            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
-            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel1.Controls.Add(this.NumeroID);
-            this.bunifuGradientPanel1.Controls.Add(this.label16);
-            this.bunifuGradientPanel1.Controls.Add(this.TipoID);
-            this.bunifuGradientPanel1.Controls.Add(this.label15);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuSeparator1);
-            this.bunifuGradientPanel1.Controls.Add(this.SalaEs);
-            this.bunifuGradientPanel1.Controls.Add(this.label14);
-            this.bunifuGradientPanel1.Controls.Add(this.TurmaES);
-            this.bunifuGradientPanel1.Controls.Add(this.AnoDeIngresso);
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
-            this.bunifuGradientPanel1.Controls.Add(this.nomeArquivo);
-            this.bunifuGradientPanel1.Controls.Add(this.fotoDocente);
-            this.bunifuGradientPanel1.Controls.Add(this.btn_cadastrar);
-            this.bunifuGradientPanel1.Controls.Add(this.label18);
-            this.bunifuGradientPanel1.Controls.Add(this.label17);
-            this.bunifuGradientPanel1.Controls.Add(this.label13);
-            this.bunifuGradientPanel1.Controls.Add(this.label12);
-            this.bunifuGradientPanel1.Controls.Add(this.label11);
-            this.bunifuGradientPanel1.Controls.Add(this.FotoUsuario);
-            this.bunifuGradientPanel1.Controls.Add(this.EmailEstudante);
-            this.bunifuGradientPanel1.Controls.Add(this.label10);
-            this.bunifuGradientPanel1.Controls.Add(this.TelefoneEstudante);
-            this.bunifuGradientPanel1.Controls.Add(this.label9);
-            this.bunifuGradientPanel1.Controls.Add(this.GeneroEstudante);
-            this.bunifuGradientPanel1.Controls.Add(this.EstadoCevilEstudante);
-            this.bunifuGradientPanel1.Controls.Add(this.label8);
-            this.bunifuGradientPanel1.Controls.Add(this.MoradaEstudante);
-            this.bunifuGradientPanel1.Controls.Add(this.label7);
-            this.bunifuGradientPanel1.Controls.Add(this.NacionalidadeEstudante);
-            this.bunifuGradientPanel1.Controls.Add(this.label6);
-            this.bunifuGradientPanel1.Controls.Add(this.label5);
-            this.bunifuGradientPanel1.Controls.Add(this.label4);
-            this.bunifuGradientPanel1.Controls.Add(this.DataNacEstudante);
-            this.bunifuGradientPanel1.Controls.Add(this.lblUNome);
-            this.bunifuGradientPanel1.Controls.Add(this.label3);
-            this.bunifuGradientPanel1.Controls.Add(this.lblPnome);
-            this.bunifuGradientPanel1.Controls.Add(this.label2);
-            this.bunifuGradientPanel1.Controls.Add(this.label1);
-            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.White;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.White;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Maroon;
-            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
-            this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(943, 498);
-            this.bunifuGradientPanel1.TabIndex = 0;
-            // 
-            // NumeroID
-            // 
-            this.NumeroID.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NumeroID.Location = new System.Drawing.Point(533, 219);
-            this.NumeroID.Name = "NumeroID";
-            this.NumeroID.Size = new System.Drawing.Size(205, 29);
-            this.NumeroID.TabIndex = 140;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(586, 182);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(104, 25);
-            this.label16.TabIndex = 139;
-            this.label16.Text = "Numero ID";
-            // 
-            // TipoID
-            // 
-            this.TipoID.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TipoID.FormattingEnabled = true;
-            this.TipoID.Items.AddRange(new object[] {
-            "BI",
-            "Carta de Condução",
-            "Paçaporte",
-            "Cartão de Eleitor"});
-            this.TipoID.Location = new System.Drawing.Point(561, 142);
-            this.TipoID.Name = "TipoID";
-            this.TipoID.Size = new System.Drawing.Size(157, 29);
-            this.TipoID.TabIndex = 138;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(557, 105);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(161, 25);
-            this.label15.TabIndex = 137;
-            this.label15.Text = "Tipo de Bilhete ID";
-            this.label15.Click += new System.EventHandler(this.Label15_Click);
-            // 
-            // bunifuSeparator1
-            // 
-            this.bunifuSeparator1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuSeparator1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
-            this.bunifuSeparator1.LineThickness = 1;
-            this.bunifuSeparator1.Location = new System.Drawing.Point(-4, 38);
-            this.bunifuSeparator1.Name = "bunifuSeparator1";
-            this.bunifuSeparator1.Size = new System.Drawing.Size(947, 10);
-            this.bunifuSeparator1.TabIndex = 136;
-            this.bunifuSeparator1.Transparency = 255;
-            this.bunifuSeparator1.Vertical = false;
-            // 
-            // SalaEs
-            // 
-            this.SalaEs.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SalaEs.FormattingEnabled = true;
-            this.SalaEs.Items.AddRange(new object[] {
-            "Solteiro",
-            "Casado",
-            "Viuvo"});
-            this.SalaEs.Location = new System.Drawing.Point(860, 359);
-            this.SalaEs.Name = "SalaEs";
-            this.SalaEs.Size = new System.Drawing.Size(65, 29);
-            this.SalaEs.TabIndex = 135;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(859, 320);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 25);
-            this.label14.TabIndex = 134;
-            this.label14.Text = "Sala";
-            // 
-            // TurmaES
-            // 
-            this.TurmaES.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TurmaES.FormattingEnabled = true;
-            this.TurmaES.Items.AddRange(new object[] {
-            "Solteiro",
-            "Casado",
-            "Viuvo"});
-            this.TurmaES.Location = new System.Drawing.Point(762, 359);
-            this.TurmaES.Name = "TurmaES";
-            this.TurmaES.Size = new System.Drawing.Size(65, 29);
-            this.TurmaES.TabIndex = 133;
-            // 
-            // AnoDeIngresso
-            // 
-            this.AnoDeIngresso.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AnoDeIngresso.Location = new System.Drawing.Point(302, 459);
-            this.AnoDeIngresso.MaxDate = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
-            this.AnoDeIngresso.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
-            this.AnoDeIngresso.Name = "AnoDeIngresso";
-            this.AnoDeIngresso.Size = new System.Drawing.Size(205, 29);
-            this.AnoDeIngresso.TabIndex = 132;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 54);
+            this.pictureBox1.Location = new System.Drawing.Point(2, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(83, 76);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 131;
+            this.pictureBox1.TabIndex = 98;
             this.pictureBox1.TabStop = false;
-            // 
-            // nomeArquivo
-            // 
-            this.nomeArquivo.AutoSize = true;
-            this.nomeArquivo.BackColor = System.Drawing.Color.Transparent;
-            this.nomeArquivo.Font = new System.Drawing.Font("Leelawadee UI", 8F);
-            this.nomeArquivo.ForeColor = System.Drawing.Color.Maroon;
-            this.nomeArquivo.Location = new System.Drawing.Point(843, 291);
-            this.nomeArquivo.Name = "nomeArquivo";
-            this.nomeArquivo.Size = new System.Drawing.Size(97, 13);
-            this.nomeArquivo.TabIndex = 130;
-            this.nomeArquivo.Text = "Nome do Arquivo";
-            // 
-            // fotoDocente
-            // 
-            this.fotoDocente.BackColor = System.Drawing.Color.Red;
-            this.fotoDocente.FlatAppearance.BorderSize = 0;
-            this.fotoDocente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.fotoDocente.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fotoDocente.ForeColor = System.Drawing.Color.White;
-            this.fotoDocente.Location = new System.Drawing.Point(808, 98);
-            this.fotoDocente.Name = "fotoDocente";
-            this.fotoDocente.Size = new System.Drawing.Size(123, 32);
-            this.fotoDocente.TabIndex = 129;
-            this.fotoDocente.Text = "Cadastar";
-            this.fotoDocente.UseVisualStyleBackColor = false;
-            this.fotoDocente.Click += new System.EventHandler(this.FotoDocente_Click_1);
-            // 
-            // btn_cadastrar
-            // 
-            this.btn_cadastrar.BackColor = System.Drawing.Color.Red;
-            this.btn_cadastrar.FlatAppearance.BorderSize = 0;
-            this.btn_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cadastrar.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cadastrar.ForeColor = System.Drawing.Color.White;
-            this.btn_cadastrar.Location = new System.Drawing.Point(802, 440);
-            this.btn_cadastrar.Name = "btn_cadastrar";
-            this.btn_cadastrar.Size = new System.Drawing.Size(123, 38);
-            this.btn_cadastrar.TabIndex = 128;
-            this.btn_cadastrar.Text = "Cadastar";
-            this.btn_cadastrar.UseVisualStyleBackColor = false;
-            this.btn_cadastrar.Click += new System.EventHandler(this.Btn_cadastrar_Click);
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label18.ForeColor = System.Drawing.Color.Black;
-            this.label18.Location = new System.Drawing.Point(761, 320);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(66, 25);
-            this.label18.TabIndex = 127;
-            this.label18.Text = "Turma";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.Color.Transparent;
-            this.label17.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label17.ForeColor = System.Drawing.Color.Black;
-            this.label17.Location = new System.Drawing.Point(334, 416);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(150, 25);
-            this.label17.TabIndex = 126;
-            this.label17.Text = "Ano De Ingresso";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(785, 282);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(52, 25);
-            this.label13.TabIndex = 125;
-            this.label13.Text = "0000";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(749, 282);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(30, 25);
-            this.label12.TabIndex = 124;
-            this.label12.Text = "ID";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(757, 98);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(49, 25);
-            this.label11.TabIndex = 123;
-            this.label11.Text = "Foto";
-            // 
-            // FotoUsuario
-            // 
-            this.FotoUsuario.Location = new System.Drawing.Point(754, 135);
-            this.FotoUsuario.Name = "FotoUsuario";
-            this.FotoUsuario.Size = new System.Drawing.Size(178, 137);
-            this.FotoUsuario.TabIndex = 122;
-            this.FotoUsuario.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1_Click);
             // 
             // EmailEstudante
             // 
             this.EmailEstudante.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmailEstudante.Location = new System.Drawing.Point(302, 370);
+            this.EmailEstudante.Location = new System.Drawing.Point(18, 127);
             this.EmailEstudante.Name = "EmailEstudante";
             this.EmailEstudante.Size = new System.Drawing.Size(205, 29);
-            this.EmailEstudante.TabIndex = 121;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(372, 333);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 25);
-            this.label10.TabIndex = 120;
-            this.label10.Text = "E-mail";
+            this.EmailEstudante.TabIndex = 86;
             // 
             // TelefoneEstudante
             // 
             this.TelefoneEstudante.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TelefoneEstudante.Location = new System.Drawing.Point(302, 297);
+            this.TelefoneEstudante.Location = new System.Drawing.Point(18, 50);
             this.TelefoneEstudante.Name = "TelefoneEstudante";
             this.TelefoneEstudante.Size = new System.Drawing.Size(205, 29);
-            this.TelefoneEstudante.TabIndex = 119;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(365, 260);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(85, 25);
-            this.label9.TabIndex = 118;
-            this.label9.Text = "Telefone";
+            this.TelefoneEstudante.TabIndex = 84;
             // 
             // GeneroEstudante
             // 
@@ -400,10 +123,10 @@
             this.GeneroEstudante.Items.AddRange(new object[] {
             "Femenino",
             "Masculino"});
-            this.GeneroEstudante.Location = new System.Drawing.Point(87, 379);
+            this.GeneroEstudante.Location = new System.Drawing.Point(15, 287);
             this.GeneroEstudante.Name = "GeneroEstudante";
             this.GeneroEstudante.Size = new System.Drawing.Size(157, 29);
-            this.GeneroEstudante.TabIndex = 117;
+            this.GeneroEstudante.TabIndex = 82;
             // 
             // EstadoCevilEstudante
             // 
@@ -413,213 +136,630 @@
             "Solteiro",
             "Casado",
             "Viuvo"});
-            this.EstadoCevilEstudante.Location = new System.Drawing.Point(330, 219);
+            this.EstadoCevilEstudante.Location = new System.Drawing.Point(17, 422);
             this.EstadoCevilEstudante.Name = "EstadoCevilEstudante";
             this.EstadoCevilEstudante.Size = new System.Drawing.Size(157, 29);
-            this.EstadoCevilEstudante.TabIndex = 116;
+            this.EstadoCevilEstudante.TabIndex = 81;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(350, 182);
+            this.label8.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label8.ForeColor = System.Drawing.Color.DimGray;
+            this.label8.Location = new System.Drawing.Point(13, 398);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(121, 25);
-            this.label8.TabIndex = 115;
+            this.label8.Size = new System.Drawing.Size(100, 21);
+            this.label8.TabIndex = 80;
             this.label8.Text = "Estrado Cevil";
             // 
             // MoradaEstudante
             // 
             this.MoradaEstudante.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MoradaEstudante.Location = new System.Drawing.Point(302, 142);
+            this.MoradaEstudante.Location = new System.Drawing.Point(16, 52);
             this.MoradaEstudante.Name = "MoradaEstudante";
             this.MoradaEstudante.Size = new System.Drawing.Size(205, 29);
-            this.MoradaEstudante.TabIndex = 114;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(372, 105);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(78, 25);
-            this.label7.TabIndex = 113;
-            this.label7.Text = "Morada";
-            this.label7.Click += new System.EventHandler(this.Label7_Click);
+            this.MoradaEstudante.TabIndex = 79;
             // 
             // NacionalidadeEstudante
             // 
             this.NacionalidadeEstudante.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NacionalidadeEstudante.Location = new System.Drawing.Point(65, 459);
+            this.NacionalidadeEstudante.Location = new System.Drawing.Point(15, 354);
             this.NacionalidadeEstudante.Name = "NacionalidadeEstudante";
             this.NacionalidadeEstudante.Size = new System.Drawing.Size(205, 29);
-            this.NacionalidadeEstudante.TabIndex = 112;
+            this.NacionalidadeEstudante.TabIndex = 77;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(100, 416);
+            this.label6.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label6.ForeColor = System.Drawing.Color.DimGray;
+            this.label6.Location = new System.Drawing.Point(13, 330);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(134, 25);
-            this.label6.TabIndex = 111;
+            this.label6.Size = new System.Drawing.Size(109, 21);
+            this.label6.TabIndex = 76;
             this.label6.Text = "Nacionalidade";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(135, 338);
+            this.label5.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label5.ForeColor = System.Drawing.Color.DimGray;
+            this.label5.Location = new System.Drawing.Point(13, 263);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 25);
-            this.label5.TabIndex = 110;
+            this.label5.Size = new System.Drawing.Size(61, 21);
+            this.label5.TabIndex = 75;
             this.label5.Text = "Genero";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(78, 260);
+            this.label4.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label4.ForeColor = System.Drawing.Color.DimGray;
+            this.label4.Location = new System.Drawing.Point(11, 185);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(182, 25);
-            this.label4.TabIndex = 109;
+            this.label4.Size = new System.Drawing.Size(150, 21);
+            this.label4.TabIndex = 74;
             this.label4.Text = "Data de Nascimento";
             // 
             // DataNacEstudante
             // 
             this.DataNacEstudante.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DataNacEstudante.Location = new System.Drawing.Point(65, 297);
+            this.DataNacEstudante.Location = new System.Drawing.Point(15, 205);
             this.DataNacEstudante.MaxDate = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
             this.DataNacEstudante.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.DataNacEstudante.Name = "DataNacEstudante";
             this.DataNacEstudante.Size = new System.Drawing.Size(205, 29);
-            this.DataNacEstudante.TabIndex = 108;
+            this.DataNacEstudante.TabIndex = 73;
             // 
-            // lblUNome
+            // ApelidoEstudante
             // 
-            this.lblUNome.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUNome.Location = new System.Drawing.Point(65, 219);
-            this.lblUNome.Name = "lblUNome";
-            this.lblUNome.Size = new System.Drawing.Size(205, 29);
-            this.lblUNome.TabIndex = 107;
+            this.ApelidoEstudante.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ApelidoEstudante.Location = new System.Drawing.Point(15, 127);
+            this.ApelidoEstudante.Name = "ApelidoEstudante";
+            this.ApelidoEstudante.Size = new System.Drawing.Size(205, 29);
+            this.ApelidoEstudante.TabIndex = 72;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(135, 182);
+            this.label3.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label3.ForeColor = System.Drawing.Color.DimGray;
+            this.label3.Location = new System.Drawing.Point(11, 103);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 25);
-            this.label3.TabIndex = 106;
+            this.label3.Size = new System.Drawing.Size(63, 21);
+            this.label3.TabIndex = 71;
             this.label3.Text = "Apelido";
             // 
-            // lblPnome
+            // NomeEstudante
             // 
-            this.lblPnome.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPnome.Location = new System.Drawing.Point(65, 142);
-            this.lblPnome.Name = "lblPnome";
-            this.lblPnome.Size = new System.Drawing.Size(205, 29);
-            this.lblPnome.TabIndex = 105;
+            this.NomeEstudante.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NomeEstudante.Location = new System.Drawing.Point(15, 50);
+            this.NomeEstudante.Name = "NomeEstudante";
+            this.NomeEstudante.Size = new System.Drawing.Size(205, 29);
+            this.NomeEstudante.TabIndex = 70;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(135, 105);
+            this.label2.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.Location = new System.Drawing.Point(11, 26);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 25);
-            this.label2.TabIndex = 104;
+            this.label2.Size = new System.Drawing.Size(53, 21);
+            this.label2.TabIndex = 69;
             this.label2.Text = "Nome";
-            this.label2.Click += new System.EventHandler(this.Label2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Leelawadee UI", 14F);
-            this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(55, 13);
+            this.label1.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(87, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 25);
-            this.label1.TabIndex = 103;
+            this.label1.Size = new System.Drawing.Size(206, 25);
+            this.label1.TabIndex = 68;
             this.label1.Text = "Registro de Estudante";
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
+            // 
+            // AnoDeIngresso
+            // 
+            this.AnoDeIngresso.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AnoDeIngresso.Location = new System.Drawing.Point(18, 53);
+            this.AnoDeIngresso.MaxDate = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
+            this.AnoDeIngresso.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.AnoDeIngresso.Name = "AnoDeIngresso";
+            this.AnoDeIngresso.Size = new System.Drawing.Size(205, 29);
+            this.AnoDeIngresso.TabIndex = 99;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Honeydew;
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.NomeEstudante);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.ApelidoEstudante);
+            this.panel1.Controls.Add(this.DataNacEstudante);
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Controls.Add(this.NacionalidadeEstudante);
+            this.panel1.Controls.Add(this.GeneroEstudante);
+            this.panel1.Controls.Add(this.EstadoCevilEstudante);
+            this.panel1.Controls.Add(this.label8);
+            this.panel1.Location = new System.Drawing.Point(92, 91);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(236, 526);
+            this.panel1.TabIndex = 103;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.LimeGreen;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(261, 10);
+            this.panel2.TabIndex = 104;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Leelawadee UI", 14F);
+            this.label15.ForeColor = System.Drawing.Color.LimeGreen;
+            this.label15.Location = new System.Drawing.Point(102, 63);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(136, 25);
+            this.label15.TabIndex = 104;
+            this.label15.Text = "Dados Pessoas";
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FloralWhite;
+            this.panel3.Controls.Add(this.label14);
+            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.label13);
+            this.panel3.Controls.Add(this.textBox3);
+            this.panel3.Controls.Add(this.label12);
+            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.label11);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Controls.Add(this.MoradaEstudante);
+            this.panel3.Location = new System.Drawing.Point(387, 91);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(237, 413);
+            this.panel3.TabIndex = 105;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Salmon;
+            this.panel4.Location = new System.Drawing.Point(-1, 1);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(261, 10);
+            this.panel4.TabIndex = 105;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label7.ForeColor = System.Drawing.Color.DimGray;
+            this.label7.Location = new System.Drawing.Point(13, 26);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(58, 21);
+            this.label7.TabIndex = 106;
+            this.label7.Text = "Cidade";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label11.ForeColor = System.Drawing.Color.DimGray;
+            this.label11.Location = new System.Drawing.Point(13, 103);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(84, 21);
+            this.label11.TabIndex = 108;
+            this.label11.Text = "Localidade";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(16, 129);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(205, 29);
+            this.textBox1.TabIndex = 107;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
+            this.label12.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label12.ForeColor = System.Drawing.Color.DimGray;
+            this.label12.Location = new System.Drawing.Point(13, 185);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(52, 21);
+            this.label12.TabIndex = 110;
+            this.label12.Text = "Bairro";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(16, 211);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(205, 29);
+            this.textBox2.TabIndex = 109;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
+            this.label13.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label13.ForeColor = System.Drawing.Color.DimGray;
+            this.label13.Location = new System.Drawing.Point(13, 263);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(85, 21);
+            this.label13.TabIndex = 112;
+            this.label13.Text = "Quarteirão";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(16, 289);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(205, 29);
+            this.textBox3.TabIndex = 111;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label14.ForeColor = System.Drawing.Color.DimGray;
+            this.label14.Location = new System.Drawing.Point(13, 330);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(123, 21);
+            this.label14.TabIndex = 114;
+            this.label14.Text = "Numero da casa";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(16, 356);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(205, 29);
+            this.textBox4.TabIndex = 113;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Leelawadee UI", 14F);
+            this.label16.ForeColor = System.Drawing.Color.Salmon;
+            this.label16.Location = new System.Drawing.Point(387, 63);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(110, 25);
+            this.label16.TabIndex = 106;
+            this.label16.Text = "Localização";
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Azure;
+            this.panel5.Controls.Add(this.label19);
+            this.panel5.Controls.Add(this.textBox5);
+            this.panel5.Controls.Add(this.label10);
+            this.panel5.Controls.Add(this.label9);
+            this.panel5.Controls.Add(this.panel7);
+            this.panel5.Controls.Add(this.TelefoneEstudante);
+            this.panel5.Controls.Add(this.EmailEstudante);
+            this.panel5.Location = new System.Drawing.Point(674, 91);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(240, 262);
+            this.panel5.TabIndex = 107;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(261, 10);
+            this.panel7.TabIndex = 107;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Leelawadee UI", 14F);
+            this.label18.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label18.Location = new System.Drawing.Point(669, 63);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(96, 25);
+            this.label18.TabIndex = 108;
+            this.label18.Text = "Contactos";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label9.ForeColor = System.Drawing.Color.DimGray;
+            this.label9.Location = new System.Drawing.Point(14, 26);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(82, 21);
+            this.label9.TabIndex = 108;
+            this.label9.Text = "Telefone 1";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label10.ForeColor = System.Drawing.Color.DimGray;
+            this.label10.Location = new System.Drawing.Point(14, 103);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 21);
+            this.label10.TabIndex = 109;
+            this.label10.Text = "Telefone 2";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.Transparent;
+            this.label19.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label19.ForeColor = System.Drawing.Color.DimGray;
+            this.label19.Location = new System.Drawing.Point(14, 185);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(54, 21);
+            this.label19.TabIndex = 111;
+            this.label19.Text = "E-Mail";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(18, 209);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(205, 29);
+            this.textBox5.TabIndex = 110;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.PaleGoldenrod;
+            this.panel6.Controls.Add(this.comboBox3);
+            this.panel6.Controls.Add(this.label23);
+            this.panel6.Controls.Add(this.label22);
+            this.panel6.Controls.Add(this.comboBox2);
+            this.panel6.Controls.Add(this.label21);
+            this.panel6.Controls.Add(this.comboBox1);
+            this.panel6.Controls.Add(this.label17);
+            this.panel6.Controls.Add(this.panel8);
+            this.panel6.Controls.Add(this.AnoDeIngresso);
+            this.panel6.Location = new System.Drawing.Point(674, 392);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(240, 225);
+            this.panel6.TabIndex = 109;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.SaddleBrown;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(261, 10);
+            this.panel8.TabIndex = 108;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Font = new System.Drawing.Font("Leelawadee UI", 14F);
+            this.label20.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label20.Location = new System.Drawing.Point(669, 364);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(171, 25);
+            this.label20.TabIndex = 110;
+            this.label20.Text = "Dados Academicos";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label17.ForeColor = System.Drawing.Color.DimGray;
+            this.label17.Location = new System.Drawing.Point(14, 29);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(122, 21);
+            this.label17.TabIndex = 112;
+            this.label17.Text = "Ano de Ingresso";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Femenino",
+            "Masculino"});
+            this.comboBox1.Location = new System.Drawing.Point(18, 115);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(78, 29);
+            this.comboBox1.TabIndex = 113;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label21.ForeColor = System.Drawing.Color.DimGray;
+            this.label21.Location = new System.Drawing.Point(14, 91);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(55, 21);
+            this.label21.TabIndex = 114;
+            this.label21.Text = "Turma";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label22.ForeColor = System.Drawing.Color.DimGray;
+            this.label22.Location = new System.Drawing.Point(136, 91);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(39, 21);
+            this.label22.TabIndex = 116;
+            this.label22.Text = "Sala";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Femenino",
+            "Masculino"});
+            this.comboBox2.Location = new System.Drawing.Point(145, 115);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(78, 29);
+            this.comboBox2.TabIndex = 115;
+            // 
+            // FotoUsuario
+            // 
+            this.FotoUsuario.Location = new System.Drawing.Point(953, 91);
+            this.FotoUsuario.Name = "FotoUsuario";
+            this.FotoUsuario.Size = new System.Drawing.Size(191, 141);
+            this.FotoUsuario.TabIndex = 111;
+            this.FotoUsuario.TabStop = false;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label23.ForeColor = System.Drawing.Color.DimGray;
+            this.label23.Location = new System.Drawing.Point(14, 150);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(51, 21);
+            this.label23.TabIndex = 117;
+            this.label23.Text = "Curso";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Femenino",
+            "Masculino"});
+            this.comboBox3.Location = new System.Drawing.Point(18, 174);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(205, 29);
+            this.comboBox3.TabIndex = 118;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(953, 238);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 29);
+            this.button1.TabIndex = 112;
+            this.button1.Text = "Foto";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click_2);
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(943, 498);
-            this.Controls.Add(this.bunifuGradientPanel1);
-            this.MaximumSize = new System.Drawing.Size(959, 537);
-            this.MinimumSize = new System.Drawing.Size(959, 537);
+            this.ClientSize = new System.Drawing.Size(1156, 629);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.FotoUsuario);
+            this.Controls.Add(this.label20);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
-            this.bunifuGradientPanel1.ResumeLayout(false);
-            this.bunifuGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.FotoUsuario)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
-        private System.Windows.Forms.ComboBox SalaEs;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox TurmaES;
-        private System.Windows.Forms.DateTimePicker AnoDeIngresso;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label nomeArquivo;
-        private System.Windows.Forms.Button fotoDocente;
-        private System.Windows.Forms.Button btn_cadastrar;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox FotoUsuario;
         private System.Windows.Forms.TextBox EmailEstudante;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox TelefoneEstudante;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox GeneroEstudante;
         private System.Windows.Forms.ComboBox EstadoCevilEstudante;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox MoradaEstudante;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox NacionalidadeEstudante;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker DataNacEstudante;
-        private System.Windows.Forms.TextBox lblUNome;
+        private System.Windows.Forms.TextBox ApelidoEstudante;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox lblPnome;
+        private System.Windows.Forms.TextBox NomeEstudante;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private Bunifu.Framework.UI.BunifuSeparator bunifuSeparator1;
+        private System.Windows.Forms.DateTimePicker AnoDeIngresso;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox NumeroID;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.ComboBox TipoID;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.PictureBox FotoUsuario;
+        private System.Windows.Forms.Button button1;
     }
 }

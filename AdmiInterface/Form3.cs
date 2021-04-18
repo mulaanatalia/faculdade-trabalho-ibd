@@ -13,7 +13,6 @@ namespace AdmiInterface
 {
     public partial class Form3 : Form
     {
-        private Insercao inserir = new Insercao();
         private Validacao validar = new Validacao();
         public Form3()
         {
@@ -42,14 +41,7 @@ namespace AdmiInterface
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            //Metodo para carregar ficheiros que fazem parte dos dados do usuario. Foto. Posteorimente pode ser usado para Carregar BI
-            OpenFileDialog open = new OpenFileDialog();
-            open.Filter = "Image Files( *.jpg; *.jpeg; *.bmp)|*.jpg; *.jpeg;*.bmp";
-            if(open.ShowDialog() == DialogResult.OK)
-            {
-                FotoUsuario.Image = new Bitmap(open.FileName);
-                nomeArquivo.Text = open.FileName;
-            }
+           
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -58,8 +50,8 @@ namespace AdmiInterface
             string msgErro = "O Espaço não pode estar vazio";
             try
             {
-                validar.campo(lblPnome.Text);
-                validar.campo(lblUNome.Text);
+                validar.campo(NomeEstudante.Text);
+                validar.campo(ApelidoEstudante.Text);
 
             }
             catch (FormatException)
@@ -86,57 +78,31 @@ namespace AdmiInterface
         {
 
         }
-       
-        private int codigo = 12000322;
+
         private void Button1_Click_1(object sender, EventArgs e)
         {
-            
+            string strCon = @"server=localhost;user id=root;pwd=laice;database=controlo_assiduidade; ";
+            MySqlConnection cn = new MySqlConnection(strCon);
+            cn.Open();
+            MySqlCommand comm = new MySqlCommand();
+            comm.Connection = cn;
+            comm.CommandType = CommandType.Text;
+            comm.CommandText = "insert into controlo_assiduidade values('"+NomeEstudante.Text+"', "+ApelidoEstudante.Text+", default)";
+            comm.ExecuteNonQuery();
+            comm.Connection.Close();
+            MessageBox.Show("Inserido com sucesso");
         }
 
-        private void Label1_Click(object sender, EventArgs e)
+        private void Button1_Click_2(object sender, EventArgs e)
         {
-
-        }
-
-        private void Label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FotoDocente_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label15_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Btn_cadastrar_Click(object sender, EventArgs e)
-        {
-            try
+            //Metodo para carregar ficheiros que fazem parte dos dados do usuario. Foto. Posteorimente pode ser usado para Carregar BI
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Image Files( *.jpg; *.jpeg; *.bmp)|*.jpg; *.jpeg;*.bmp";
+            if (open.ShowDialog() == DialogResult.OK)
             {
-                
+                FotoUsuario.Image = new Bitmap(open.FileName);
+               
             }
-            catch (ArgumentException)
-            {
-
-            }
-            
-        }
-        private void mensagemErro(string msg, string caption)
-        {
-            MessageBox.Show(msg, caption,MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
-        private void mensagemSuceso(string msg, string caption)
-        {
-            MessageBox.Show(msg, caption, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
