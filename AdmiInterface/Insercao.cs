@@ -43,7 +43,27 @@ namespace AdmiInterface
             comando.Parameters.Clear();
 
         }
-
+        public void curso(string cod, string nome, int duracao, string desc)
+        {
+            comando.CommandText = "insert into curso values " +
+                "(@codigo, @nome, @duracao, @descricao)";
+            comando.Parameters.AddWithValue("@codigo",cod);
+            comando.Parameters.AddWithValue("@nome", nome);
+            comando.Parameters.AddWithValue("@duracao", duracao);
+            comando.Parameters.AddWithValue("@descricao", desc);
+            try
+            {
+                comando.Connection = conexao.conectar();
+                comando.ExecuteNonQuery();
+                conexao.desconectar();
+                mensagem = "Curso Cadastrado";
+            }
+            catch (MySqlException)
+            {
+                mensagem = "Erro ao cadastrar Curso";
+            }
+            comando.Parameters.Clear();
+        }
         public void estudante(int cod, string pNome, string uNome,
             char genero, string dataNascimento, string estadoC, string nacionalidade,
             string naturalidade, string dataIngresso, string identidade, string nrId, string email, int[] telef, string[] morada, string codCurso)

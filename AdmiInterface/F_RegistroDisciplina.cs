@@ -29,9 +29,14 @@ namespace AdmiInterface
         {
             try
             {
+                //Validar campos
                 inserir.disciplina(txbCodigo.Text, txbDisciplina.Text,
                     (int)upCargaHoraria.Value, cbEstatuto.Text, (int) upCredito.Value);
                 msg.sucesso(inserir.Mensagem, "Disciplina");
+                txbCodigo.Text = "";
+                txbDisciplina.Text = "";
+                cbEstatuto.Text = "";
+
             }
             catch (FormatException)
             {

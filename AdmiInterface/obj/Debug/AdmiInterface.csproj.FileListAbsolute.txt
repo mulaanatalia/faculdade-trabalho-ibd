@@ -37,14 +37,11 @@ D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\Admi
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\Google.Protobuf.dll
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\Zstandard.Net.dll
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\K4os.Compression.LZ4.Streams.dll
-D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\BouncyCastle.Crypto.dll
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\Ubiety.Dns.Core.dll
-D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\Renci.SshNet.dll
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\System.Buffers.dll
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\K4os.Compression.LZ4.dll
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\K4os.Hash.xxHash.dll
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\bin\Debug\MySql.Data.xml
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\obj\Debug\AdmiInterface.csprojAssemblyReference.cache
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\obj\Debug\AdmiInterface.exe.config
 D:\Faculdade\II ano\II Semestre\ProgramacaoC#\Codigos\Trabalhos\TrabalhoIBD\AdmiInterface\obj\Debug\AdmiInterface.F_Login.resources
