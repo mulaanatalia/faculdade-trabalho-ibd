@@ -96,17 +96,17 @@
     <Compile Include="F_RegistroTurmas.Designer.cs">
       <DependentUpon>F_RegistroTurmas.cs</DependentUpon>
     </Compile>
-    <Compile Include="F_LinkarDisciplinaCurso.cs">
+    <Compile Include="F_PresencaEstudante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F_LinkarDisciplinaCurso.Designer.cs">
-      <DependentUpon>F_LinkarDisciplinaCurso.cs</DependentUpon>
+    <Compile Include="F_PresencaEstudante.Designer.cs">
+      <DependentUpon>F_PresencaEstudante.cs</DependentUpon>
     </Compile>
-    <Compile Include="F_LinkarDisciplinaDocente.cs">
+    <Compile Include="F_PresencaDocente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F_LinkarDisciplinaDocente.Designer.cs">
-      <DependentUpon>F_LinkarDisciplinaDocente.cs</DependentUpon>
+    <Compile Include="F_PresencaDocente.Designer.cs">
+      <DependentUpon>F_PresencaDocente.cs</DependentUpon>
     </Compile>
     <Compile Include="Insercao.cs" />
     <Compile Include="Program.cs" />
@@ -133,11 +133,11 @@
     <EmbeddedResource Include="F_RegistroTurmas.resx">
       <DependentUpon>F_RegistroTurmas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="F_LinkarDisciplinaCurso.resx">
-      <DependentUpon>F_LinkarDisciplinaCurso.cs</DependentUpon>
+    <EmbeddedResource Include="F_PresencaEstudante.resx">
+      <DependentUpon>F_PresencaEstudante.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="F_LinkarDisciplinaDocente.resx">
-      <DependentUpon>F_LinkarDisciplinaDocente.cs</DependentUpon>
+    <EmbeddedResource Include="F_PresencaDocente.resx">
+      <DependentUpon>F_PresencaDocente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

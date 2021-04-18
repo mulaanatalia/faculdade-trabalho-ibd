@@ -1,6 +1,6 @@
 ﻿namespace AdmiInterface
 {
-    partial class F_LinkarDisciplinaCurso
+    partial class F_PresencaEstudante
     {
         /// <summary>
         /// Required designer variable.

@@ -25,12 +25,12 @@ namespace AdmiInterface
         {
             // Para iniciar as telas 
             F_MenuRegistros adim = new F_MenuRegistros();
-            F_LinkarDisciplinaCurso Estudate = new F_LinkarDisciplinaCurso();
-            F_LinkarDisciplinaDocente Docente = new F_LinkarDisciplinaDocente();
+            F_PresencaEstudante Estudate = new F_PresencaEstudante();
+            F_PresencaDocente Docente = new F_PresencaDocente();
            
            // Metood para redecioanar os usuarios segundo os seus dados
            //O if sera alterado para verificar se as senha sao semelhates ou nao. 
-            if(nomeUsuario.Text == Adimusuario && senhaUsuario.Text == Adimsenha)
+            if(nomeUsuario.Text == "" && senhaUsuario.Text == "")
             {
                 adim.ShowDialog();
                

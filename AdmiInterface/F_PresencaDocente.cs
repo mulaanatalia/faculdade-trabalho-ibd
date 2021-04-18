@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdmiInterface
 {
-    public partial class F_LinkarDisciplinaDocente : Form
+    public partial class F_PresencaDocente : Form
     {
-        public F_LinkarDisciplinaDocente()
+        public F_PresencaDocente()
         {
             InitializeComponent();
         }
