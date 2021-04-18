@@ -1,6 +1,6 @@
 ﻿namespace AdmiInterface
 {
-    partial class Form3
+    partial class F_RegistroEstudante
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_RegistroEstudante));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.EmailEstudante = new System.Windows.Forms.TextBox();
             this.TelefoneEstudante = new System.Windows.Forms.TextBox();

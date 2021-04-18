@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace AdmiInterface
 {
-    public partial class Form8 : Form
+    public partial class F_RegistroCurso : Form
     {
-        public Form8()
+        public F_RegistroCurso()
         {
             InitializeComponent();
         }
 
-        private void Form8_Load(object sender, EventArgs e)
+        private void Label5_Click(object sender, EventArgs e)
         {
 
         }

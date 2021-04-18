@@ -1,6 +1,6 @@
 ﻿namespace AdmiInterface
 {
-    partial class Form6
+    partial class F_RegistroDisciplina
     {
         /// <summary>
         /// Required designer variable.

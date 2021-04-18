@@ -1,6 +1,6 @@
 ﻿namespace AdmiInterface
 {
-    partial class Form7
+    partial class F_RegistroTurmas
     {
         /// <summary>
         /// Required designer variable.

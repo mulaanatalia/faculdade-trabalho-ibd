@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdmiInterface
 {
-    public partial class Form7 : Form
+    public partial class F_RegistroTurmas : Form
     {
-        public Form7()
+        public F_RegistroTurmas()
         {
             InitializeComponent();
         }

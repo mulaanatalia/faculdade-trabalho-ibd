@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AdmiInterface
 {
-    public partial class Form5 : Form
+    public partial class F_LinkarDisciplinaDocente : Form
     {
-        public Form5()
+        public F_LinkarDisciplinaDocente()
         {
             InitializeComponent();
-        }
-
-        private void Label5_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

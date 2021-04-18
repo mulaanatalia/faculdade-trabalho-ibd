@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace AdmiInterface
 {
-    public partial class Form6 : Form
+    public partial class F_LinkarDisciplinaCurso : Form
     {
-        public Form6()
+        public F_LinkarDisciplinaCurso()
         {
             InitializeComponent();
         }
 
-        private void TextBox1_TextChanged(object sender, EventArgs e)
+        private void Form8_Load(object sender, EventArgs e)
         {
 
         }

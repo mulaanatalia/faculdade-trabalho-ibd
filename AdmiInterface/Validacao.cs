@@ -10,7 +10,7 @@ namespace AdmiInterface
     {
         public void campo(string campo)
         {
-            if(campo.Equals("") || campo == null)
+            if(string.IsNullOrEmpty(campo))
             {
                 throw new FormatException();
             }

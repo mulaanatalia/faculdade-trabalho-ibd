@@ -11,10 +11,10 @@ using MySql.Data.MySqlClient;
 
 namespace AdmiInterface
 {
-    public partial class Form3 : Form
+    public partial class F_RegistroEstudante : Form
     {
         private Validacao validar = new Validacao();
-        public Form3()
+        public F_RegistroEstudante()
         {
             InitializeComponent();
         }
