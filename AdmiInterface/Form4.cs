@@ -30,8 +30,13 @@ namespace AdmiInterface
             if (open.ShowDialog() == DialogResult.OK)
             {
                 FotoUsuario.Image = new Bitmap(open.FileName);
-                nomeArquivo.Text = open.FileName;
+               
             }
+        }
+
+        private void Panel6_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
