@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace AdmiInterface
 {
-    public partial class Form9 : Form
+    public partial class F_RegistroDisciplina : Form
     {
-        public Form9()
+        public F_RegistroDisciplina()
         {
             InitializeComponent();
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

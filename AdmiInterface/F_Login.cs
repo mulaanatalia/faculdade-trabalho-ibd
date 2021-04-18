@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdmiInterface
 {
-    public partial class Form1 : Form
+    public partial class F_Login : Form
     {
-        public Form1()
+        public F_Login()
         {
             InitializeComponent();
         }
@@ -24,9 +24,9 @@ namespace AdmiInterface
         private void Button1_Click(object sender, EventArgs e)
         {
             // Para iniciar as telas 
-            Form2 adim = new Form2();
-            Form8 Estudate = new Form8();
-            Form9 Docente = new Form9();
+            F_MenuRegistros adim = new F_MenuRegistros();
+            F_LinkarDisciplinaCurso Estudate = new F_LinkarDisciplinaCurso();
+            F_LinkarDisciplinaDocente Docente = new F_LinkarDisciplinaDocente();
            
            // Metood para redecioanar os usuarios segundo os seus dados
            //O if sera alterado para verificar se as senha sao semelhates ou nao. 

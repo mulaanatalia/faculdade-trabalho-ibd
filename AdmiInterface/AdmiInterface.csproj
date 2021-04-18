@@ -54,90 +54,90 @@
   <ItemGroup>
     <Compile Include="Conexao.cs" />
     <Compile Include="Consulta.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="F_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="F_Login.Designer.cs">
+      <DependentUpon>F_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="F_MenuRegistros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="F_MenuRegistros.Designer.cs">
+      <DependentUpon>F_MenuRegistros.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="F_RegistroEstudante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="F_RegistroEstudante.Designer.cs">
+      <DependentUpon>F_RegistroEstudante.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="F_RegistroDocente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="F_RegistroDocente.Designer.cs">
+      <DependentUpon>F_RegistroDocente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="F_RegistroCurso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="F_RegistroCurso.Designer.cs">
+      <DependentUpon>F_RegistroCurso.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="F_RegistroDisciplina.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="F_RegistroDisciplina.Designer.cs">
+      <DependentUpon>F_RegistroDisciplina.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="F_RegistroTurmas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="F_RegistroTurmas.Designer.cs">
+      <DependentUpon>F_RegistroTurmas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form8.cs">
+    <Compile Include="F_LinkarDisciplinaCurso.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form8.Designer.cs">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <Compile Include="F_LinkarDisciplinaCurso.Designer.cs">
+      <DependentUpon>F_LinkarDisciplinaCurso.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form9.cs">
+    <Compile Include="F_LinkarDisciplinaDocente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form9.Designer.cs">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <Compile Include="F_LinkarDisciplinaDocente.Designer.cs">
+      <DependentUpon>F_LinkarDisciplinaDocente.cs</DependentUpon>
     </Compile>
     <Compile Include="Insercao.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Validacao.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="F_Login.resx">
+      <DependentUpon>F_Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="F_MenuRegistros.resx">
+      <DependentUpon>F_MenuRegistros.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="F_RegistroEstudante.resx">
+      <DependentUpon>F_RegistroEstudante.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="F_RegistroDocente.resx">
+      <DependentUpon>F_RegistroDocente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="F_RegistroCurso.resx">
+      <DependentUpon>F_RegistroCurso.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="F_RegistroDisciplina.resx">
+      <DependentUpon>F_RegistroDisciplina.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="F_RegistroTurmas.resx">
+      <DependentUpon>F_RegistroTurmas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form8.resx">
-      <DependentUpon>Form8.cs</DependentUpon>
+    <EmbeddedResource Include="F_LinkarDisciplinaCurso.resx">
+      <DependentUpon>F_LinkarDisciplinaCurso.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form9.resx">
-      <DependentUpon>Form9.cs</DependentUpon>
+    <EmbeddedResource Include="F_LinkarDisciplinaDocente.resx">
+      <DependentUpon>F_LinkarDisciplinaDocente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
