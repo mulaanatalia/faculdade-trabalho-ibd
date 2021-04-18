@@ -12,6 +12,9 @@ namespace AdmiInterface
 {
     public partial class F_RegistroDisciplina : Form
     {
+        private Insercao inserir = new Insercao();
+        private Validacao validar = new Validacao();
+        private Mensagem msg = new Mensagem();
         public F_RegistroDisciplina()
         {
             InitializeComponent();
@@ -20,6 +23,20 @@ namespace AdmiInterface
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Btn_adicionar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                inserir.disciplina(txbCodigo.Text, txbDisciplina.Text,
+                    (int)upCargaHoraria.Value, cbEstatuto.Text, (int) upCredito.Value);
+                msg.sucesso(inserir.Mensagem, "Disciplina");
+            }
+            catch (FormatException)
+            {
+                msg.erro(inserir.Mensagem, "Disciplina");
+            }
         }
     }
 }

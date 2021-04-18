@@ -54,10 +54,6 @@ namespace AdmiInterface
 
             }
         }
-        private void mensagemDeErro(string msg, string caption)
-        {
-            MessageBox.Show(msg, caption, MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
 
         private void Label21_Click(object sender, EventArgs e)
         {
