@@ -29,10 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_RegistroDocente));
-            this.button1 = new System.Windows.Forms.Button();
             this.FotoUsuario = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.nrbi = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.tipobi = new System.Windows.Forms.ComboBox();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.label20 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.label23 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.AnoDeIngresso = new System.Windows.Forms.DateTimePicker();
@@ -73,40 +84,115 @@
             this.GeneroEstudante = new System.Windows.Forms.ComboBox();
             this.EstadoCevilEstudante = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label21 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.btn_cadastrar = new System.Windows.Forms.Button();
+            this.btn_voltar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.FotoUsuario)).BeginInit();
+            this.panel9.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Black;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(954, 230);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 29);
-            this.button1.TabIndex = 123;
-            this.button1.Text = "Foto";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
             // FotoUsuario
             // 
             this.FotoUsuario.Image = ((System.Drawing.Image)(resources.GetObject("FotoUsuario.Image")));
-            this.FotoUsuario.Location = new System.Drawing.Point(931, 83);
+            this.FotoUsuario.Location = new System.Drawing.Point(376, 83);
             this.FotoUsuario.Name = "FotoUsuario";
             this.FotoUsuario.Size = new System.Drawing.Size(156, 141);
             this.FotoUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FotoUsuario.TabIndex = 122;
             this.FotoUsuario.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(65, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(192, 25);
+            this.label1.TabIndex = 113;
+            this.label1.Text = "Registro de Docente";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Font = new System.Drawing.Font("Leelawadee UI", 14F);
+            this.label24.ForeColor = System.Drawing.Color.SaddleBrown;
+            this.label24.Location = new System.Drawing.Point(294, 40);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(217, 25);
+            this.label24.TabIndex = 136;
+            this.label24.Text = "Bilhetes de Identificação";
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.Wheat;
+            this.panel9.Controls.Add(this.label25);
+            this.panel9.Controls.Add(this.nrbi);
+            this.panel9.Controls.Add(this.label27);
+            this.panel9.Controls.Add(this.tipobi);
+            this.panel9.Controls.Add(this.panel10);
+            this.panel9.Location = new System.Drawing.Point(299, 68);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(240, 206);
+            this.panel9.TabIndex = 135;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label25.ForeColor = System.Drawing.Color.DimGray;
+            this.label25.Location = new System.Drawing.Point(15, 103);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(106, 21);
+            this.label25.TabIndex = 115;
+            this.label25.Text = "Numero de BI";
+            // 
+            // nrbi
+            // 
+            this.nrbi.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nrbi.Location = new System.Drawing.Point(19, 127);
+            this.nrbi.Name = "nrbi";
+            this.nrbi.Size = new System.Drawing.Size(205, 29);
+            this.nrbi.TabIndex = 105;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.Transparent;
+            this.label27.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label27.ForeColor = System.Drawing.Color.DimGray;
+            this.label27.Location = new System.Drawing.Point(14, 26);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(78, 21);
+            this.label27.TabIndex = 114;
+            this.label27.Text = "Tipo de BI";
+            // 
+            // tipobi
+            // 
+            this.tipobi.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tipobi.FormattingEnabled = true;
+            this.tipobi.Items.AddRange(new object[] {
+            "Femenino",
+            "Masculino"});
+            this.tipobi.Location = new System.Drawing.Point(18, 50);
+            this.tipobi.Name = "tipobi";
+            this.tipobi.Size = new System.Drawing.Size(180, 29);
+            this.tipobi.TabIndex = 113;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.RosyBrown;
+            this.panel10.Location = new System.Drawing.Point(0, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(261, 10);
+            this.panel10.TabIndex = 108;
             // 
             // label20
             // 
@@ -114,10 +200,10 @@
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Leelawadee UI", 14F);
             this.label20.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.label20.Location = new System.Drawing.Point(647, 356);
+            this.label20.Location = new System.Drawing.Point(822, 41);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(171, 25);
-            this.label20.TabIndex = 121;
+            this.label20.TabIndex = 134;
             this.label20.Text = "Dados Academicos";
             // 
             // panel6
@@ -130,11 +216,58 @@
             this.panel6.Controls.Add(this.label17);
             this.panel6.Controls.Add(this.panel8);
             this.panel6.Controls.Add(this.AnoDeIngresso);
-            this.panel6.Location = new System.Drawing.Point(652, 384);
+            this.panel6.Location = new System.Drawing.Point(827, 69);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(240, 225);
-            this.panel6.TabIndex = 120;
-            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel6_Paint);
+            this.panel6.TabIndex = 133;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Femenino",
+            "Masculino"});
+            this.comboBox1.Location = new System.Drawing.Point(18, 178);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(205, 29);
+            this.comboBox1.TabIndex = 120;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.Transparent;
+            this.label21.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label21.ForeColor = System.Drawing.Color.DimGray;
+            this.label21.Location = new System.Drawing.Point(14, 154);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(77, 21);
+            this.label21.TabIndex = 119;
+            this.label21.Text = "Disciplina";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "Femenino",
+            "Masculino"});
+            this.comboBox3.Location = new System.Drawing.Point(18, 116);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(205, 29);
+            this.comboBox3.TabIndex = 118;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.Transparent;
+            this.label23.Font = new System.Drawing.Font("Leelawadee UI", 12F);
+            this.label23.ForeColor = System.Drawing.Color.DimGray;
+            this.label23.Location = new System.Drawing.Point(14, 92);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(158, 21);
+            this.label23.TabIndex = 117;
+            this.label23.Text = "Formação Academica";
             // 
             // label17
             // 
@@ -172,10 +305,10 @@
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("Leelawadee UI", 14F);
             this.label18.ForeColor = System.Drawing.Color.SteelBlue;
-            this.label18.Location = new System.Drawing.Point(647, 55);
+            this.label18.Location = new System.Drawing.Point(294, 283);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(96, 25);
-            this.label18.TabIndex = 119;
+            this.label18.TabIndex = 132;
             this.label18.Text = "Contactos";
             // 
             // panel5
@@ -188,10 +321,10 @@
             this.panel5.Controls.Add(this.panel7);
             this.panel5.Controls.Add(this.TelefoneEstudante);
             this.panel5.Controls.Add(this.EmailEstudante);
-            this.panel5.Location = new System.Drawing.Point(652, 83);
+            this.panel5.Location = new System.Drawing.Point(299, 311);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(240, 262);
-            this.panel5.TabIndex = 118;
+            this.panel5.Size = new System.Drawing.Size(240, 283);
+            this.panel5.TabIndex = 131;
             // 
             // label19
             // 
@@ -267,10 +400,10 @@
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Leelawadee UI", 14F);
             this.label16.ForeColor = System.Drawing.Color.Salmon;
-            this.label16.Location = new System.Drawing.Point(365, 55);
+            this.label16.Location = new System.Drawing.Point(565, 40);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(110, 25);
-            this.label16.TabIndex = 117;
+            this.label16.TabIndex = 130;
             this.label16.Text = "Localização";
             // 
             // panel3
@@ -287,10 +420,10 @@
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Controls.Add(this.MoradaEstudante);
-            this.panel3.Location = new System.Drawing.Point(365, 83);
+            this.panel3.Location = new System.Drawing.Point(565, 68);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(237, 413);
-            this.panel3.TabIndex = 116;
+            this.panel3.TabIndex = 129;
             // 
             // label14
             // 
@@ -406,10 +539,10 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("Leelawadee UI", 14F);
             this.label15.ForeColor = System.Drawing.Color.LimeGreen;
-            this.label15.Location = new System.Drawing.Point(80, 55);
+            this.label15.Location = new System.Drawing.Point(50, 40);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(136, 25);
-            this.label15.TabIndex = 115;
+            this.label15.TabIndex = 128;
             this.label15.Text = "Dados Pessoas";
             // 
             // panel1
@@ -428,10 +561,10 @@
             this.panel1.Controls.Add(this.GeneroEstudante);
             this.panel1.Controls.Add(this.EstadoCevilEstudante);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Location = new System.Drawing.Point(70, 83);
+            this.panel1.Location = new System.Drawing.Point(40, 68);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(236, 526);
-            this.panel1.TabIndex = 114;
+            this.panel1.TabIndex = 127;
             // 
             // panel2
             // 
@@ -572,84 +705,53 @@
             this.label8.TabIndex = 80;
             this.label8.Text = "Estrado Cevil";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Leelawadee UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(65, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 25);
-            this.label1.TabIndex = 113;
-            this.label1.Text = "Registro de Docente";
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "Femenino",
-            "Masculino"});
-            this.comboBox3.Location = new System.Drawing.Point(18, 116);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(205, 29);
-            this.comboBox3.TabIndex = 118;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.label23.Font = new System.Drawing.Font("Leelawadee UI", 12F);
-            this.label23.ForeColor = System.Drawing.Color.DimGray;
-            this.label23.Location = new System.Drawing.Point(14, 92);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(158, 21);
-            this.label23.TabIndex = 117;
-            this.label23.Text = "Formação Academica";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Femenino",
-            "Masculino"});
-            this.comboBox1.Location = new System.Drawing.Point(18, 178);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(205, 29);
-            this.comboBox1.TabIndex = 120;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("Leelawadee UI", 12F);
-            this.label21.ForeColor = System.Drawing.Color.DimGray;
-            this.label21.Location = new System.Drawing.Point(14, 154);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(77, 21);
-            this.label21.TabIndex = 119;
-            this.label21.Text = "Disciplina";
-            // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(964, 558);
+            this.button2.BackColor = System.Drawing.Color.DarkRed;
+            this.button2.Font = new System.Drawing.Font("Leelawadee UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Location = new System.Drawing.Point(891, 522);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(123, 33);
-            this.button2.TabIndex = 124;
-            this.button2.Text = "Cadastar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Size = new System.Drawing.Size(176, 62);
+            this.button2.TabIndex = 138;
+            this.button2.Text = "Limpar";
+            this.button2.UseVisualStyleBackColor = false;
             // 
-            // Form4
+            // btn_cadastrar
+            // 
+            this.btn_cadastrar.BackColor = System.Drawing.Color.Chartreuse;
+            this.btn_cadastrar.Font = new System.Drawing.Font("Leelawadee UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cadastrar.Location = new System.Drawing.Point(891, 401);
+            this.btn_cadastrar.Name = "btn_cadastrar";
+            this.btn_cadastrar.Size = new System.Drawing.Size(176, 62);
+            this.btn_cadastrar.TabIndex = 137;
+            this.btn_cadastrar.Text = "Cadastrar";
+            this.btn_cadastrar.UseVisualStyleBackColor = false;
+            // 
+            // btn_voltar
+            // 
+            this.btn_voltar.BackColor = System.Drawing.Color.Black;
+            this.btn_voltar.Font = new System.Drawing.Font("Leelawadee UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_voltar.ForeColor = System.Drawing.Color.White;
+            this.btn_voltar.Location = new System.Drawing.Point(999, 7);
+            this.btn_voltar.Name = "btn_voltar";
+            this.btn_voltar.Size = new System.Drawing.Size(135, 37);
+            this.btn_voltar.TabIndex = 139;
+            this.btn_voltar.Text = "Voltar";
+            this.btn_voltar.UseVisualStyleBackColor = false;
+            this.btn_voltar.Click += new System.EventHandler(this.Btn_voltar_Click);
+            // 
+            // F_RegistroDocente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1135, 635);
+            this.Controls.Add(this.btn_voltar);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.FotoUsuario);
+            this.Controls.Add(this.btn_cadastrar);
+            this.Controls.Add(this.label24);
+            this.Controls.Add(this.panel9);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.label18);
@@ -658,11 +760,14 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.FotoUsuario);
             this.Controls.Add(this.label1);
-            this.Name = "Form4";
+            this.Name = "F_RegistroDocente";
             this.Text = "Form4";
             this.Load += new System.EventHandler(this.Form4_Load);
             ((System.ComponentModel.ISupportInitialize)(this.FotoUsuario)).EndInit();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
@@ -677,11 +782,21 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox FotoUsuario;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TextBox nrbi;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.ComboBox tipobi;
+        private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.DateTimePicker AnoDeIngresso;
@@ -722,11 +837,8 @@
         private System.Windows.Forms.ComboBox GeneroEstudante;
         private System.Windows.Forms.ComboBox EstadoCevilEstudante;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_cadastrar;
+        private System.Windows.Forms.Button btn_voltar;
     }
 }

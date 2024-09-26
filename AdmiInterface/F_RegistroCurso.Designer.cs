@@ -29,13 +29,16 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txbCurso = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.rcDescricao = new System.Windows.Forms.RichTextBox();
+            this.btn_criar = new System.Windows.Forms.Button();
+            this.txbCodigo = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.upDuracao = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.upDuracao)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -50,13 +53,13 @@
             this.label1.TabIndex = 32;
             this.label1.Text = "Criar Cruso";
             // 
-            // textBox1
+            // txbCurso
             // 
-            this.textBox1.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(64, 110);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(270, 29);
-            this.textBox1.TabIndex = 35;
+            this.txbCurso.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbCurso.Location = new System.Drawing.Point(64, 110);
+            this.txbCurso.Name = "txbCurso";
+            this.txbCurso.Size = new System.Drawing.Size(270, 29);
+            this.txbCurso.TabIndex = 35;
             // 
             // label2
             // 
@@ -64,27 +67,11 @@
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Leelawadee UI", 14F);
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(59, 70);
+            this.label2.Location = new System.Drawing.Point(59, 79);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 25);
             this.label2.TabIndex = 34;
             this.label2.Text = "Nome Do Curso";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "1 Mes",
-            "3 Meses",
-            "6 Meses",
-            "1 Ano",
-            "2 Anos",
-            "4 Anos"});
-            this.comboBox2.Location = new System.Drawing.Point(65, 195);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(157, 29);
-            this.comboBox2.TabIndex = 47;
             // 
             // label5
             // 
@@ -111,47 +98,95 @@
             this.label3.TabIndex = 48;
             this.label3.Text = "Discrição";
             // 
-            // richTextBox1
+            // rcDescricao
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox1.Location = new System.Drawing.Point(65, 293);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(502, 152);
-            this.richTextBox1.TabIndex = 49;
-            this.richTextBox1.Text = "";
+            this.rcDescricao.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.rcDescricao.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rcDescricao.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rcDescricao.Location = new System.Drawing.Point(65, 293);
+            this.rcDescricao.MaxLength = 200;
+            this.rcDescricao.Name = "rcDescricao";
+            this.rcDescricao.Size = new System.Drawing.Size(502, 152);
+            this.rcDescricao.TabIndex = 49;
+            this.rcDescricao.Text = "";
             // 
-            // button1
+            // btn_criar
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(444, 451);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(123, 38);
-            this.button1.TabIndex = 50;
-            this.button1.Text = "Criar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_criar.BackColor = System.Drawing.Color.Red;
+            this.btn_criar.FlatAppearance.BorderSize = 0;
+            this.btn_criar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_criar.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_criar.ForeColor = System.Drawing.Color.White;
+            this.btn_criar.Location = new System.Drawing.Point(444, 451);
+            this.btn_criar.Name = "btn_criar";
+            this.btn_criar.Size = new System.Drawing.Size(123, 38);
+            this.btn_criar.TabIndex = 50;
+            this.btn_criar.Text = "Criar";
+            this.btn_criar.UseVisualStyleBackColor = false;
+            this.btn_criar.Click += new System.EventHandler(this.Btn_criar_Click);
             // 
-            // Form5
+            // txbCodigo
+            // 
+            this.txbCodigo.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbCodigo.Location = new System.Drawing.Point(395, 107);
+            this.txbCodigo.Name = "txbCodigo";
+            this.txbCodigo.Size = new System.Drawing.Size(135, 29);
+            this.txbCodigo.TabIndex = 61;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.Font = new System.Drawing.Font("Leelawadee UI", 14F);
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(390, 79);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(73, 25);
+            this.label6.TabIndex = 60;
+            this.label6.Text = "Codigo";
+            // 
+            // upDuracao
+            // 
+            this.upDuracao.Font = new System.Drawing.Font("Leelawadee UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.upDuracao.Location = new System.Drawing.Point(65, 183);
+            this.upDuracao.Maximum = new decimal(new int[] {
+            72,
+            0,
+            0,
+            0});
+            this.upDuracao.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.upDuracao.Name = "upDuracao";
+            this.upDuracao.Size = new System.Drawing.Size(120, 32);
+            this.upDuracao.TabIndex = 62;
+            this.upDuracao.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // F_RegistroCurso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(653, 514);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.upDuracao);
+            this.Controls.Add(this.txbCodigo);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.btn_criar);
+            this.Controls.Add(this.rcDescricao);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txbCurso);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form5";
-            this.Text = "Form5";
+            this.Name = "F_RegistroCurso";
+            this.Text = "Novo Curso";
+            ((System.ComponentModel.ISupportInitialize)(this.upDuracao)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,12 +195,14 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txbCurso;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox rcDescricao;
+        private System.Windows.Forms.Button btn_criar;
+        private System.Windows.Forms.TextBox txbCodigo;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.NumericUpDown upDuracao;
     }
 }

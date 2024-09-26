@@ -24,7 +24,7 @@ namespace AdmiInterface
         // Este form Facilita as abertora de quase todas as te
         private void Button1_Click_1(object sender, EventArgs e)
         {
-            F_RegistroEstudante openform = new F_RegistroEstudante();
+            txbTipoBi openform = new txbTipoBi();
             openform.ShowDialog();
         }
 
@@ -54,13 +54,13 @@ namespace AdmiInterface
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            F_LinkarDisciplinaCurso openform = new F_LinkarDisciplinaCurso();
+            F_PresencaEstudante openform = new F_PresencaEstudante();
             openform.ShowDialog();
         }
 
         private void Button7_Click(object sender, EventArgs e)
         {
-            F_LinkarDisciplinaDocente openform = new F_LinkarDisciplinaDocente();
+            F_PresencaDocente openform = new F_PresencaDocente();
             openform.ShowDialog();
         }
     }

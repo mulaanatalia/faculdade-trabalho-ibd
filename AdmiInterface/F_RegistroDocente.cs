@@ -34,9 +34,9 @@ namespace AdmiInterface
             }
         }
 
-        private void Panel6_Paint(object sender, PaintEventArgs e)
+        private void Btn_voltar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
